@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="primaryColor">@color/primaryColor</item>
+        <item name="primaryLightColor">@color/primaryLightColor</item>
+        <item name="primaryDarkColor">@color/primaryDarkColor</item>
+        <item name="primaryTextColor">@color/primaryTextColor</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="myButtons">
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="answers">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:layout_width">271dp</item>
+        <item name="android:layout_height">42dp</item>
+    </style>
+
+    <style name="questions">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+
+    <style name="myTitle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">28dp</item>
+    </style>
+
+</resources>
